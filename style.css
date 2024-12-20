@@ -66,60 +66,6 @@ font {
     color: #D6DDE6;
     margin: 0;
 }
-/* .header{
-    
-    display: flex;
-    justify-content: space-between;
-    background-color: #A2D2600F;
-    padding: 1rem 2rem;
-    border: .125rem solid #A2D2600F;
-    border-radius: 1rem;
-    margin: 1.5vw 12.5vw;
-    backdrop-filter: blur(6rem);
-    box-shadow: 0 0.25rem 1.5rem 0 #00000029;
-}
-.part1{
-    display: flex;
-    gap: 2.5vw;
-}
-.header .part1 p{
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    color: #D6DDE6;
-}
-.part2 p{
-    font-size: 2.7rem;
-    font-weight: 400;
-    line-height: 2.7rem;
-    text-align: left;
-    width: 13rem;
-    height: Fixed (4.5rem)rem;
-    gap: 0.75rem;
-    color: #D6DDE6;
-}
-.part2{
-    margin-right: 12vw;
-}
-.contact{
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    color: #D6DDE6;
-}
-.main-content {
-    padding: 3rem;
-}
-.hero-section {
-    padding: 6rem 0;
-}
-.header-text {
-    font-size: 7.5rem;
-    font-weight: 700;
-    text-align: center;
-    color: #D6DDE6;
-    line-height: 7.5rem;
-} */
 .main-image img {
     border-radius: 2.25rem;
     border: 0.09375rem solid #D6DDE633;
@@ -167,124 +113,184 @@ font {
     justify-content: space-between;
     margin:250px 100px 50px 100px;
     
-    }
-    .left2{
-    color:#888F97;
-    font-size: 28px;
+}
+.left2{
+color:#888F97;
+font-size: 28px;
+font-weight: 500;
+}
+.right2:hover{
+cursor: pointer;
+color:#7e858e;
+}
+.right2{
+color: #D6DDE6;
+border:1.5px solid #313840;
+border-radius: 8px;
+font-size:20px;
+padding:12px 24px;
+font-weight: 600;
+}
+.stat-number {
+font-size: 48px;
+font-weight: 700;
+letter-spacing: -0.48px;
+color: rgba(214, 221, 230, 1);
+}
+
+.stat-label {
+font-size: 20px;
+line-height: 1.2;
+color: rgba(214, 221, 230, 1);
+margin-top: 8px;
+}
+      
+    .about-section {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 48px;
+    color: rgba(214, 221, 230, 1);
     font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.48px;
+    line-height: 52px;
+    padding: 96px 0;
     }
-    .right2:hover{
-    cursor: pointer;
-    color:#7e858e;
-    }
-    .right2{
-    color: #D6DDE6;
-    border:1.5px solid #313840;
-    border-radius: 8px;
-    font-size:20px;
-    padding:12px 24px;
-    font-weight: 600;
-    }
-    .stat-number {
-        font-size: 48px;
-        font-weight: 700;
-        letter-spacing: -0.48px;
-        color: rgba(214, 221, 230, 1);
-      }
-      
-      .stat-label {
-        font-size: 20px;
-        line-height: 1.2;
-        color: rgba(214, 221, 230, 1);
-        margin-top: 8px;
-      }
-      
-      .about-section {
-        max-width: 900px;
-        margin: 0 auto;
-        font-size: 48px;
-        color: rgba(214, 221, 230, 1);
-        font-weight: 500;
-        text-align: center;
-        letter-spacing: -0.48px;
-        line-height: 52px;
-        padding: 96px 0;
-      }
-      .impact-section {
-        padding: 2rem;
-        text-align: center;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+    .impact-section {
+    padding: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.impact-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #bbb;
+}
+
+.impact-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.metric {
+    text-align: center;
+    width: 150px;
+}
+
+.metric h3 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.metric p {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+
+.impact-description {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ddd;
+    line-height: 1.8;
+}
+   
+.our-impact {
+  color: #fff; 
+  padding: 40px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.our-impact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  width: 648px;
+}
+.impact-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px; 
+  width: 648px 
+}
+
+.stat {
+  text-align: left; 
+  flex: 1; 
+  min-width: 150px; 
+}
+
+.stat h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: rgba(214, 221, 230, 1);
+
+}
+
+.stat p {
+  font-size: 16px;
+  color: #d0d4db;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(8, 15, 23, 1);
+    padding: 96px 0px;
+}
+.one p{
+    width: 900px;
+    height: 312px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(214, 221, 230, 1);
+}
     
-    .impact-header h2 {
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-        color: #bbb;
-    }
-    
-    /* Metrics Section */
+@media (max-width: 768px) {
     .impact-metrics {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
-        margin-bottom: 2rem;
+        flex-direction: column;
+        gap: 1.5rem;
     }
-    
+
     .metric {
-        text-align: center;
-        width: 150px;
+        width: 100%;
     }
-    
-    .metric h3 {
-        font-size: 2rem;
-        color: #fff;
-        margin-bottom: 0.5rem;
-    }
-    
-    .metric p {
-        font-size: 0.9rem;
-        color: #aaa;
-    }
-    
-    /* Description Section */
+
     .impact-description {
-        font-size: 1.1rem;
-        max-width: 800px;
-        margin: 0 auto;
-        color: #ddd;
-        line-height: 1.8;
+        font-size: 1rem;
     }
-    
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .impact-metrics {
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-    
-        .metric {
-            width: 100%;
-        }
-    
-        .impact-description {
-            font-size: 1rem;
-        }
+}
+
+@media (max-width: 480px) {
+    .impact-header h2 {
+        font-size: 1.2rem;
     }
-    
-    @media (max-width: 480px) {
-        .impact-header h2 {
-            font-size: 1.2rem;
-        }
-    
-        .metric h3 {
-            font-size: 1.5rem;
-        }
-    
-        .impact-description {
-            font-size: 0.9rem;
-        }
+
+    .metric h3 {
+        font-size: 1.5rem;
     }
+
+    .impact-description {
+        font-size: 0.9rem;
+    }
+}
     
