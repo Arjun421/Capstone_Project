@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #080F17;
+    margin: 0;
+   
+    
+}
+font {
+    font-family: "Plus Jakarta Sans", serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #A2D2600F;
+    padding: 1rem 2rem;
+    border: 0.125rem solid #A2D2600F;
+    border-radius: 1rem;
+    margin: 1.5vw 12.5vw;
+    backdrop-filter: blur(6rem);
+    box-shadow: 0 0.25rem 1.5rem 0 #00000029;
+}
+
+.part1 {
+    display: flex;
+    gap: 2rem; 
+    align-items: center; 
+}
+
+.header .part1 p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #D6DDE6;
+    margin: 0; 
+}
+
+.part2 {
+    display: flex;
+    align-items: center; 
+    margin-right: 12vw;
+}
+
+.part2 p {
+    font-size: 2.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    text-align: left;
+    color: #D6DDE6;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center; 
+}
+
+.contact p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #D6DDE6;
+    margin: 0;
+}
+/* .header{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #A2D2600F;
+    padding: 1rem 2rem;
+    border: .125rem solid #A2D2600F;
+    border-radius: 1rem;
+    margin: 1.5vw 12.5vw;
+    backdrop-filter: blur(6rem);
+    box-shadow: 0 0.25rem 1.5rem 0 #00000029;
+}
+.part1{
+    display: flex;
+    gap: 2.5vw;
+}
+.header .part1 p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #D6DDE6;
+}
+.part2 p{
+    font-size: 2.7rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    text-align: left;
+    width: 13rem;
+    height: Fixed (4.5rem)rem;
+    gap: 0.75rem;
+    color: #D6DDE6;
+}
+.part2{
+    margin-right: 12vw;
+}
+.contact{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #D6DDE6;
+}
+.main-content {
+    padding: 3rem;
+}
+.hero-section {
+    padding: 6rem 0;
+}
+.header-text {
+    font-size: 7.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #D6DDE6;
+    line-height: 7.5rem;
+} */
+.main-image img {
+    border-radius: 2.25rem;
+    border: 0.09375rem solid #D6DDE633;
+    margin-top: 3rem;
+}
+.row {
+    display: flex;
+    gap: 3rem;
+}
+.project-img img {
+    border: 0.09375rem solid #D6DDE633;
+    border-radius: 0.75rem;
+}
+.text1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #D6DDE6;
+    margin-top: 0.3125rem;
+}
+.text2 {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #D6DDE69E;
+    margin-top: 0;
+}
+.row1 {
+    padding: 3rem 0;
+}
+.row2 {
+    margin-top: -1.25rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
+}
+.row3 {
+    margin-top: -1.25rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin:250px 100px 50px 100px;
+    
+    }
+    .left2{
+    color:#888F97;
+    font-size: 28px;
+    font-weight: 500;
+    }
+    .right2:hover{
+    cursor: pointer;
+    color:#7e858e;
+    }
+    .right2{
+    color: #D6DDE6;
+    border:1.5px solid #313840;
+    border-radius: 8px;
+    font-size:20px;
+    padding:12px 24px;
+    font-weight: 600;
+    }
+    .stat-number {
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -0.48px;
+        color: rgba(214, 221, 230, 1);
+      }
+      
+      .stat-label {
+        font-size: 20px;
+        line-height: 1.2;
+        color: rgba(214, 221, 230, 1);
+        margin-top: 8px;
+      }
+      
+      .about-section {
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 48px;
+        color: rgba(214, 221, 230, 1);
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: -0.48px;
+        line-height: 52px;
+        padding: 96px 0;
+      }
+      .impact-section {
+        padding: 2rem;
+        text-align: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .impact-header h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #bbb;
+    }
+    
+    /* Metrics Section */
+    .impact-metrics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .metric {
+        text-align: center;
+        width: 150px;
+    }
+    
+    .metric h3 {
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 0.5rem;
+    }
+    
+    .metric p {
+        font-size: 0.9rem;
+        color: #aaa;
+    }
+    
+    /* Description Section */
+    .impact-description {
+        font-size: 1.1rem;
+        max-width: 800px;
+        margin: 0 auto;
+        color: #ddd;
+        line-height: 1.8;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .impact-metrics {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+    
+        .metric {
+            width: 100%;
+        }
+    
+        .impact-description {
+            font-size: 1rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .impact-header h2 {
+            font-size: 1.2rem;
+        }
+    
+        .metric h3 {
+            font-size: 1.5rem;
+        }
+    
+        .impact-description {
+            font-size: 0.9rem;
+        }
+    }
+    
