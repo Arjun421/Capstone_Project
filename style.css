@@ -221,7 +221,7 @@ margin-top: 8px;
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 40px; 
-  width: 648px 
+  width: 648px ;
 }
 
 .stat {
